@@ -1,2 +1,6 @@
 commit= save
-
+git --version                              version
+git config --list --show-origin            all menber show list
+git config --show-origin --get user."name"
+git config --show-origin --get user."email"
+git config --list     
